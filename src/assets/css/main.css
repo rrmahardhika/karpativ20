@@ -1,0 +1,204 @@
+/* @font-face {
+    font-family: lato;
+    src: url(../font/Lato-Bold.ttf);
+  } */
+.v-application{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+body::-webkit-scrollbar {
+    display:none;
+}
+.logoKarpati{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,101,57,1);
+}
+.logoPmt{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.textNav{
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color: rgba(248,248,248,1);
+
+}
+.textNavDiv{
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(248,248,248,1);
+
+}
+.v-application--is-ltr .v-list-item__action:first-child, .v-application--is-ltr .v-list-item__icon:first-child {
+    margin-right: 20px !important;
+}
+.v-list-item--active .v-list-item__icon, .v-list-item--active .v-list-item__title {
+    color:rgba(255,101,57,1) !important;
+}
+.v-list-item--active:before{
+    color:#F8F8F8 !important;
+    opacity: 1 !important;
+    z-index:-1 !important;
+    -webkit-box-shadow: -11px -2px 25px 5px rgba(0,0,0,0.64);
+    -moz-box-shadow: -11px -2px 25px 5px rgba(0,0,0,0.64);
+    box-shadow: -11px -2px 25px 5px rgba(0,0,0,0.64);
+    
+}
+.v-list-item--active .textNav{
+    font-weight: bold !important;
+}
+.content>.v-content__wrap{
+    background-color: #F8F8F8 !important;
+    border-radius: 35px 0px 0px 35px !important;
+    margin-left:-40px !important;
+    z-index:99;
+    max-width: unset !important;
+}
+.myTitle{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.breadcums .v-breadcrumbs{
+    margin-top:0px;
+    padding:0px;
+}
+.breadcums .v-breadcrumbs .v-breadcrumbs__item{
+    font-size: 16px;
+    color:black;
+}
+.myBtn, .myBtn2{
+    font-weight: 600 !important;
+    border-radius: 30px;
+}
+.noActive.v-btn--active::before{
+    background-color: white;
+    opacity: 0!important;
+}
+.myBtn:hover{
+    background-color: rgba(235,81,37,1) !important;
+}
+.myBtn2:hover{
+    background-color: rgba(255,101,57,1);
+    color:white !important;
+}
+.tableContent{
+    background-color: white;
+    border-radius: 20px;
+    padding:15px 25px 25px 25px;
+}
+.tableContent2{
+    background-color: white;
+    border-radius: 10px;
+    padding:15px 20px;
+}
+.v-data-table{
+    font-size:14px !important;
+}
+
+.v-data-table th{
+    font-size:inherit !important;
+    color:black !important;
+    background-color: #F8F8F8 !important;
+}
+.v-data-table tr{
+    font-size:inherit !important;
+    color:black !important;
+    font-weight: 500;
+}
+.v-data-table th, .v-data-table tr, v.v-data-table td{
+    height:42px !important;
+}
+.theme--light.v-data-table tbody tr:hover:not(.v-data-table__expanded__content) {
+    background: #f8f8f8;
+}
+.v-input.myForm, .v-input.mySelect, .v-input.myFormFile{
+    font-size:15px !important;
+}
+.myForm.v-input--selection-controls{
+    margin-top:0 !important;
+    padding-top:0 !important;
+}
+.myForm input{
+    padding:0px !important;
+}
+.myForm .v-input__slot{
+    min-height:0px !important;
+    padding:8px 12px !important;
+    max-height: 38.5px !important;
+}
+.mySelect .v-input__slot{
+    min-height:0px !important;
+    padding:3px 12px !important;
+}
+.myForm.myCheck .v-label{
+    font-size:inherit !important;
+    color:inherit !important;
+}
+.mySelect .v-input__append-inner
+{
+    margin-top: 4px !important;
+}
+.myForm textarea{
+    margin-top:0px !important;
+}
+.myFormFile .v-input__slot{
+    min-height:0px !important;
+    padding:0px 12px !important;
+}
+.myForm .v-input__prepend-inner{
+    margin-top: 0px !important;
+}
+.mySelect .v-input__prepend-inner{
+    margin-top: 4px !important;
+}
+i.v-data-table-header__icon {
+    display: none !important;
+}
+.myRadio .v-label{
+    font-size:15px !important;
+}
+.myRadio.myForm.v-input--selection-controls{
+    margin-top:0px !important;
+    padding-top:0px !important;
+}
+.myRadio .v-input__slot{
+    margin-bottom:0px !important;
+}
+.tinyHeader{
+    font-size: 14px;
+    font-weight: 500;
+}
+.greatNominal{
+    font-size:30px;
+    font-weight: 500; 
+}
+.hrJudul{
+    width:100%; border:none; background-color: rgba(0, 0, 0, 0.12); height:0.5px;
+}
+
+.textAlignRight input{
+    text-align:right !important;
+}
+.detailPenjualan{
+    font-size:20px;
+    font-weight: normal;
+}
+.myFormLogin{
+    background: #FDFFFE;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-size:14px !important;
+}
